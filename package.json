@@ -1,0 +1,25 @@
+{
+  "name": "qm-deveui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "deveui.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modulesQuimera/qm-deveui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/modulesQuimera/qm-deveui/issues"
+  },
+  "homepage": "https://github.com/modulesQuimera/qm-deveui#readme",
+  "node-red" : {
+    "nodes": {
+        "deveui": "deveui.js"
+    }
+  }
+}
